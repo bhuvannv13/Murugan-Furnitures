@@ -1,0 +1,136 @@
+  /*stlying part*/
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar-brand span{
+    color:#728FCE;
+  }
+  header .carousel-inner .item {
+    height: 100vh;
+  }
+  .navbar-inverse {
+    background-color:#0f2027;
+    border-color: transparent;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #ddd;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+  }
+  .nav.navbar-nav.navbar-right {
+    margin: 25px 0;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .carousel-caption {
+    padding-bottom: 250px;
+    font-family: poppins;
+  }
+  .carousel-caption h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .carousel-caption h2 span {
+    color: #0f2027;
+  }
+  .carousel-caption a {
+    background: #0f2027;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+  }
+  .carousel-control.right {
+    background-image: none;
+  }
+  .carousel-control.left {
+    background-image: none;
+  }
+  .carousel-indicators .active {
+    background-color: #0f2027;
+    border-color: #0f2027;
+  }
+  /*responsive css*/
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+      padding-bottom: 350px;
+    }
+    .carousel-caption h2 {
+      font-size: 50px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 30px;
+      padding: 20px 15px;
+    }
+    .navbar-collapse {
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .carousel-caption {
+      padding-bottom: 120px;
+    }
+    .carousel-caption h2 {
+      font-size: 25px;
+    }
+    .carousel-caption h3 {
+      font-size: 18px;
+    }
+    .carousel-caption a {
+      padding: 10px 25px;
+    }
+  }
+  /* Style the footer */
+  .footer {
+    background-color:#0f2027;
+    padding: 10px;
+    color: snow;
+    text-align: center;
+  }
+  /*dropdown*/
+  .dropbtn {
+    background-color: #0f2027;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #000}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #0f2027;
+  }

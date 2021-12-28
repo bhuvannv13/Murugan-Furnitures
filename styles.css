@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+html::-webkit-scrollbar-track{
+    background:#111;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#728FCE;
+}
+  
+*::selection{
+   
+    color:#29465B;
+}
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+ * {
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+  }
+  body {
+    margin: 0;
+    max-width: 100%;
+  }
+  @import "bootstrap.min.css";
