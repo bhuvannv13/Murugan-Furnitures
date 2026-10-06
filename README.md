@@ -1,4 +1,14 @@
-# MF
+# Murugan Furnitures
+
+A storefront website for a furniture shop, built with Angular 11 and Bootstrap.
+
+Note: the source files sit in the repository root rather than in the usual `src/app` folders, so they may need to be moved back into the standard Angular CLI layout before the commands below work.
+
+## Setup
+
+```bash
+npm install
+```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
 
