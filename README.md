@@ -6,7 +6,7 @@ A storefront website for a furniture shop, built with Angular 11 and Bootstrap.
 
 - The source files follow the standard Angular CLI layout (`src/app`, `src/environments`, `src/assets`).
 - The four pages (home, products, about us, contact us) are simple placeholder components. The original page files were never uploaded to this repository.
-- Angular 11 needs Node.js 12 or 14. The project has not been built since it was restructured, so treat the commands below as untested.
+- Angular 11 needs Node.js 12 or 14. A production build (`npm run build -- --prod`) passes on Node.js 14 in the GitHub Actions workflow in `.github/workflows/build.yml`, which runs on every push.
 
 ## Setup
 
